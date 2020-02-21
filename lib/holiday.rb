@@ -87,7 +87,7 @@ def all_supplies_in_holidays(holiday_hash)
         date_holiday << "#{day.capitalize}"
           puts " #{date_holiday}"
       end
-end
+    end
   end
 end
 
