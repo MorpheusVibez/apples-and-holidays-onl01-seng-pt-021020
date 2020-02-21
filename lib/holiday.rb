@@ -76,10 +76,10 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.each do |season, date|
+    if season == :winter && :new_years
     puts "#{season.capitalize}:"
   
-  season.each do |day, acc|
-    puts "#{day.capitalize}: #{acc}"
+  
   end
 end
 
