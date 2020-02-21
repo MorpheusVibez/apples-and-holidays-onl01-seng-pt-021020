@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.each do |season, date|
-    string_holiday = []
+    string_holiday = ""
     if season == :winter && :new_years
     string_holiday << "#{season}:"
     
