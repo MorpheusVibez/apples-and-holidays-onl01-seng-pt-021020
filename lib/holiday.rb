@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
     date_holiday = ""
     supers = []
       if season == :winter && :new_years
-        string_holiday << "#{season.capitalize}:"
+        string_holiday << "#{season.capitalize!}:"
           puts "#{string_holiday}"
       end
       if date.each do |day, acc|
