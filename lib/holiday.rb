@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
     if season == :winter && :new_years
     string_holiday << "#{season}:"
     
-  string_holiday
+  puts "#{string_holiday}"
 end
   end
 end
