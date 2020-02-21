@@ -84,7 +84,7 @@ def all_supplies_in_holidays(holiday_hash)
       if date.each do |day, acc|
         date_holiday << "#{day.capitalize}"
     
-  puts "#{string_holiday}"
+  puts "#{string_holiday}" + "#{date_holiday}"
 end
 end
   end
